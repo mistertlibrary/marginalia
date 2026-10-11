@@ -133,3 +133,8 @@ body.print-cards details.key{display:none}
 .fields input,.ex textarea{background:#fff;border:0;border-bottom:1px solid #000;border-radius:0}
 .ex textarea{min-height:1in}
 }
+a.btn{text-decoration:none;display:inline-flex;align-items:center}
+.case .fields{margin-top:.6rem}
+.xwalk{position:relative}
+.xwalk input{width:100%;min-width:8rem;font:inherit;font-size:.9rem;padding:.4rem .5rem;border:1.5px solid var(--dash);border-radius:.2rem;background:var(--card2);color:var(--ink)}
+@media print{.xwalk input{background:#fff;border:0;border-bottom:1px solid #000;border-radius:0}}
